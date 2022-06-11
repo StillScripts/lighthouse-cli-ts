@@ -1,8 +1,8 @@
 {
   "name": "lighthouse-cli-ts",
   "description": "A CLI tool built in TypeScript to run multiple Lighthouse tests on a website.",
-  "version": "1.0.0",
-  "author": "StillScripts",
+  "version": "1.0.1",
+  "author": "StillScripts (https://stillscripts.com)",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -14,7 +14,13 @@
   "bin": {
     "lighthouse": "./bin/index.js"
   },
-  "files": ["bin"],
+  "files": [
+    "bin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StillScripts/lighthouse-cli-ts.git"
+  },
   "devDependencies": {
     "@types/cross-spawn": "^6.0.2",
     "@types/node": "^17.0.42",
